@@ -1,7 +1,7 @@
 {
     "common": {
         "name": "vu",
-        "version": "0.6.0",
+        "version": "0.0.1",
         "news": {
             "0.0.1": {
                 "en": "Support of admin3",
@@ -30,7 +30,7 @@
                 "nl": "Eerste release"
             }
         },
-		"title": "Javascript/Node.js based vu",
+		"title": "Enigma2 Remote Controlle",
         "titleLang": {
             "en": "Javascript/Node.js based vu",
             "de": "Javascript / Node.js basierte Vorlagenadapter",
