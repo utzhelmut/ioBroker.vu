@@ -1,20 +1,20 @@
-![Logo](admin/template.png)
-# ioBroker.template
+![Logo](admin/vu.png)
+# ioBroker.vu
 =================
 
-This adapter is a template for the creation of an ioBroker adapter. You do not need it unless you plan on developing your own adapter.
+This adapter is a vu for the creation of an ioBroker adapter. You do not need it unless you plan on developing your own adapter.
 
-It includes both code running within iobroker and as vis widget. If you only plan to create a vis widget then you should use the [iobroker.vis-template](https://github.com/ioBroker/ioBroker.vis-template) instead.
+It includes both code running within iobroker and as vis widget. If you only plan to create a vis widget then you should use the [iobroker.vis-vu](https://github.com/ioBroker/ioBroker.vis-vu) instead.
 
 ## Steps 
-1. download and unpack this packet from github ```https://github.com/ioBroker/ioBroker.template/archive/master.zip```
-  or clone git repository ```git clone --depth=1 https://github.com/ioBroker/ioBroker.template.git```
+1. download and unpack this packet from github ```https://github.com/ioBroker/ioBroker.vu/archive/master.zip```
+  or clone git repository ```git clone --depth=1 https://github.com/ioBroker/ioBroker.vu.git```
 
-2. download required npm packets. Write in ioBroker.template directory:
+2. download required npm packets. Write in ioBroker.vu directory:
 
   ```npm install```
   
-3. set name of this template. Call
+3. set name of this vu. Call
   
   ```gulp rename --name mynewname --email email@mail.com --author "Author Name"```
   
@@ -24,9 +24,9 @@ It includes both code running within iobroker and as vis widget. If you only pla
   
   ```npm install -g gulp-cli```
  
-4. rename directory from *ioBroker.template* (can be *ioBroker.template-master*) to *iobroker.mynewname*
+4. rename directory from *ioBroker.vu* (can be *ioBroker.vu-master*) to *iobroker.mynewname*
 
-5. to use this template you should copy it into *.../iobroker/node_modules* directory and then create an instance for it with iobroker.admin
+5. to use this vu you should copy it into *.../iobroker/node_modules* directory and then create an instance for it with iobroker.admin
 
 6. create your adapter:
 
@@ -74,7 +74,7 @@ It includes both code running within iobroker and as vis widget. If you only pla
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2018 @@Author@@ <@@email@@>
+Copyright (c) 2018 Helmut Utz <helmut.utz@o2online.de>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
